@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Products | Kaavi Lanka</title>
+<meta name="description" content="Browse handcrafted natural linen handbags, tote bags and shoulder bags from Kaavi Lanka.">
+<meta name="author" content="Kaavi Lanka">
+<meta property="og:title" content="Our Products | Kaavi Lanka">
+<meta property="og:description" content="Browse handcrafted natural linen handbags, tote bags and shoulder bags from Kaavi Lanka.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/images/tote-meadow-butterfly.jpg">
+<link rel="icon" href="assets/images/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body class="is-loading">
+
+<div class="preloader" id="preloader"><img src="assets/images/logo-emblem.png" alt="Kaavi Lanka" width="416" height="552"></div>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="brand" aria-label="Kaavi Lanka home">
+      <img class="brand-mark" src="assets/images/logo-emblem.png" alt="" width="416" height="552">
+      <img class="brand-word" src="assets/images/logo-wordmark.png" alt="Kaavi Lanka" width="711" height="444">
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Main">
+      <a href="index.html">Home</a><a href="about.html">About Us</a><a href="products.html" class="active">Our Products</a><a href="story.html">Our Story</a><a href="contact.html">Contact Us</a>
+      <a href="products.html" class="btn btn-primary">Explore Collection</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</header>
+
+<main>
+<section class="page-header">
+  <div class="blob"></div>
+  <div class="container">
+    <h1>Our Products</h1>
+    <p>Discover handcrafted bags made to carry your story.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a><i class="fa-solid fa-chevron-right"></i><span>Our Products</span></div>
+  </div>
+</section>
+<section class="section" id="products"><div class="container">
+  <div class="search-bar" role="search">
+    <label for="productSearchInput" class="sr-only">Search for a bag</label>
+    <i class="fa-solid fa-magnifying-glass search-bar-icon" aria-hidden="true"></i>
+    <input type="search" id="productSearchInput" class="search-bar-input" placeholder="Search for a bag..." autocomplete="off">
+    <button type="button" id="searchClearBtn" class="search-bar-clear" aria-label="Clear search" hidden><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="products-toolbar" id="categoryFilters"><button class="category-btn active" type="button" data-category="All">All</button><button class="category-btn" type="button" data-category="Handbags">Handbags</button><button class="category-btn" type="button" data-category="Tote Bags">Tote Bags</button><button class="category-btn" type="button" data-category="Shoulder Bags">Shoulder Bags</button><button class="category-btn" type="button" data-category="New Arrivals">New Arrivals</button></div>
+  <div class="products-grid" id="productsGrid"></div>
+  <p class="info-note"><i class="fa-solid fa-circle-info"></i> Message us on WhatsApp to confirm availability, sizes and prices.</p>
+</div></section>
+
+<section class="cta-banner">
+  <div class="blob"></div>
+  <div class="container reveal">
+    <h2>Interested in a Kaavi Lanka bag?</h2>
+    <p>Send us a message and discover our collection.</p>
+    <div class="cta-buttons"><a data-wa="Hello Kaavi Lanka, I am interested in your bags." href="#" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i>Chat on WhatsApp</a></div>
+  </div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand" aria-label="Kaavi Lanka home">
+          <img class="brand-mark" src="assets/images/logo-emblem.png" alt="" width="416" height="552">
+          <img class="brand-word" src="assets/images/logo-wordmark.png" alt="Kaavi Lanka" width="711" height="444">
+    </a>
+        <p>Every Bag Tells a Story.</p>
+      </div>
+      <div class="footer-links"><h4>Quick Links</h4><a href="index.html">Home</a><a href="about.html">About Us</a><a href="products.html">Our Products</a><a href="story.html">Our Story</a><a href="contact.html">Contact Us</a></div>
+      <div class="footer-links"><h4>Social</h4>
+        <a data-social="instagram" href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
+        <a data-social="facebook" href="#"><i class="fa-brands fa-facebook-f"></i>Facebook</a>
+        <a data-wa="Hello Kaavi Lanka, I would like to know more about your bags." href="#"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>© 2026 Kaavi Lanka. All Rights Reserved.</p></div>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+<a data-wa="Hello Kaavi Lanka, I would like to know more about your bags." href="#" class="whatsapp-float" aria-label="Chat with us on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+<div class="modal" id="detailsModal" role="dialog" aria-modal="true" aria-labelledby="detailsModalTitle">
+  <div class="modal-backdrop"></div>
+  <div class="details-modal-box">
+    <button class="modal-close" id="detailsModalClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+    <div class="details-modal-image" id="detailsModalImage"></div>
+    <div class="details-modal-body">
+      <span class="product-cat" id="detailsModalCategory"></span>
+      <h3 id="detailsModalTitle">Product</h3>
+      <p id="detailsModalDescription"></p>
+      <dl class="spec">
+        <div><dt>Material</dt><dd>100% natural linen</dd></div>
+        <div><dt>Size</dt><dd id="detailsModalSize"></dd></div>
+        <div><dt>Colours</dt><dd class="swatches" id="detailsModalColours"></dd></div>
+      </dl>
+      <div class="modal-price" id="detailsModalPrice"></div>
+      <a id="detailsModalWhatsapp" href="#" target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i>Enquire on WhatsApp</a>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
